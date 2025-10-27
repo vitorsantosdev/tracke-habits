@@ -8,11 +8,10 @@ import AddHabit from './components/AddHabit'
 function App() {
 
   return (
-    <>
-      <Habits/>
-      <AddHabit/>
-      <button>Add New</button>
-    </>
+    <div className='bg-slate-100 w-screen h-screen p-6'>
+    <AddHabit/>
+    <Habits/>    
+    </div>
   )
 }
 
